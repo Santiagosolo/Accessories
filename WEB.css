@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    
+}
+h1,h2,h3,h4,h5,h6,p,a,::placeholder,button {
+    cursor: default;
+    font-family: "Fira Sans", sans-serif;
+}
+
+/*Header*/
+
+header {
+    background-image: url(header/banner.jpg);
+    height: 760px;
+}
+.cabeza {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.link1 {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px;
+}
+.link1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.logo {
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.texto1 {
+    color: #fff;
+    margin-top: 140px;
+    margin-left: 230px;
+    max-width: 450px;
+    font-size: 28px;
+    text-align: left;
+}
+.texto1 h1 {
+    margin-top: 8px;
+    margin-bottom: 35px;
+    font-size: 92px;
+}
+.p {
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+.head2 {
+    display: flex;
+    
+}
+.pct {
+    height: 200px;
+}
+.texto1 button {
+    font-size: 15px;
+    background: transparent;
+    border: white 2px solid;
+    color: white;
+    padding: 15px;
+    width: 190px;
+}
+.texto1 button:hover {
+   background: #ECECEC;
+   cursor: pointer;
+}
+.head2 img {
+    margin-top: 190px;
+    margin-left: 50px;
+}
+
+/*Header*/
+
+/*Main clp parte*/
+
+.clp {
+    background-color: white;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.utiles {
+    width: 265px;
+    border: rgb(64, 173, 64) 2px solid;
+    border-radius: 20px;
+    height: 350px;
+    text-align: center;
+    margin-right: 20px;
+}
+.utiles img {
+    margin-top: 40px;
+}
+.def {
+    margin: 20px;
+     color: black;
+    
+}
+.utiles img,p {
+    font-size: 16px;
+}
+
+/*Main clp parte*/
+
+/*Main productos parte*/
+
+.products {
+    height: 1450px;
+    background-color: rgb(228, 228, 228);
+}
+.our-products {
+display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(64, 173, 64);
+    font-size: 35px;
+}
+.our-products b {
+    margin: 80px;
+}
+.exhibition {
+    width: 780px;
+    margin-left: 370px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 1000px;
+}
+td p {
+    color: white;
+    background-color: black;
+    padding: 3px;
+}
+td {
+    padding: 10px;
+}
+.see-more {
+    background-color: #fff;
+    width: 780px;
+    text-align: center;
+    margin-left: 370px;
+    height: 150px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.see-more button {
+    color: rgb(64, 173, 64);
+    margin-top: 35px;
+    font-size: 20px;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    border: rgb(64, 173, 64) solid 2px;
+}
+.see-more button:hover {
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+
+/*Main productos parte*/
+
+/*Main descuento parte*/
+
+.descuento {
+    background: url(Main3/Fondo.png);
+    height: 390px;
+    display: flex;
+    justify-content: center;
+}
+.info p {
+    font-size: 33px;
+    color: #fff;
+}
+.info h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: white;
+}
+.info button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(65, 196, 65);
+    color: white;
+    border: transparent;
+    font-size: 15px;
+}
+.info button:hover {
+    background-color: rgb(138, 225, 138); 
+    cursor: pointer;
+}
+.imag img{
+    position: relative;
+    float: right;
+    height: 190px;
+    margin-left: 10px;
+}
+.descuento div {
+    margin-top: 100px;
+}
+
+/*Main descuento parte*/
+
+/*Main reseña parte*/
+
+.review {
+    height: 425px;
+}
+.reseña b {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: rgb(64, 173, 64);
+}
+.texto-reseña {
+    margin-left: 500px;
+    width: 600px;
+    font-size: 30px;
+}
+.texto-reseña img {
+    height: 34px;
+    margin-bottom: 12px;
+}
+.texto-reseña p {
+    font-size: 16px;
+    margin-top: 18px;
+    color: black;
+}
+
+/*Main reseña parte*/
+
+/*Main datos parte*/
+
+.contactar {
+    height: 940px;
+    background: url(contactar/contact_g.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.contactar-titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+.contactar-titulo b {
+    margin: 80px;
+}
+::placeholder {
+    color: white;
+    font-size: 17px;
+    
+}
+.inputs input,textarea {
+    display: block;
+    font-size: 30px;
+    background: transparent;
+    border: 2px solid white;
+    font-size: 16px;
+    
+}
+.div-inputs {
+    display: flex;
+    justify-content: center;
+   
+}
+.inputs {
+    border: 2px solid white;
+    width: 45vw;
+    height: 630px;
+
+}
+.nombre {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    width: 87%;
+    height: 37px;
+}
+.email {
+    margin-bottom: 40px;
+    margin-left: 40px;
+    width: 87%;
+    height: 37px;
+}
+.number {
+    margin-bottom: 40px;
+    margin-left: 40px;
+    width: 87%;
+    height: 37px;
+}
+.message {
+    margin-left: 40px;
+    width: 87%;
+    height: 150px;
+    margin-bottom: 60px;
+}
+.submit {
+    margin-left: 265px;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 13px;
+    width: 160px;
+    background-color: rgb(64, 173, 64);
+    color: white;
+    border: transparent;
+}
+.submit:hover {
+    background-color: rgb(138, 225, 138); 
+    cursor: pointer;
+}
+/*Main datos parte*/
+
+/*footer*/
+
+footer {
+    height: 320px;
+    background-color: black;
+    border-top: white 1px solid;
+}
+.div-footer{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .div-footer h2,p {
+    color: white;
+    font-size: 15px;
+}
+.div-footer div {
+    width: 200px;
+    margin: 40px;
+    margin-top: 60px;
+}
+.div-footer ::placeholder {
+    color: grey;
+    font-size: 14px;
+}
+.div-footer div input {
+    padding: 5px;
+    border-radius: 5px;
+    border: transparent;
+}
+.div-footer div h2,img {
+    margin-bottom: 12px;
+}
+.div-footer div button {
+    margin-top: 15px;
+    background-color: rgb(64, 173, 64);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: transparent;
+}
+.div-footer div button:hover {
+    background-color: rgb(138, 225, 138); 
+    cursor: pointer;
+}
+hr {
+    width: 1200px;
+    position: relative;
+    left: 10%;
+    right: 10%;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*footer*/
